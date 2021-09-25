@@ -1,0 +1,87 @@
+.conter{
+	width: 100%;
+	height: 460px;	
+
+	display: inline-block;
+}
+
+.conter .conterin{
+	width: 1283px;
+	height: 100%;
+	margin-left: 83px;
+
+} 
+.conterin .conterleft{
+	float: left;
+	width: 800px;
+	height: 100%;
+}
+.conterin .conterright{
+	float: left;
+	width: 278px;
+	height: 100%;
+	/*user-select:none ;*/
+-moz-user-select: none;
+
+
+}
+
+.conterleft .contertoolbar{
+width: 100%;
+height: 40px;
+
+
+}
+.conterleft .conterlist{
+	width: 100%;
+
+	height: 420px;
+	overflow: auto;
+
+}
+.conterright .song_info{
+		margin-left:30px ;
+	color: rgba(255,255,255,0.5);
+	line-height: 60px;
+	text-align: center;
+}
+.conterright{
+	height: 400px;
+}
+
+.conterright .song_lyric{
+	text-align: center;
+	margin: 30px;
+}
+.conterright .song_lyric li{
+font-weight: bold;
+list-style: none;
+line-height: 30px;
+color: #FFFFFF;
+
+}
+.conterright .song_lyric .cur {
+	color: #0000FF;
+}
+
+ .conterhide  .music_voice_info{
+    height: 40px;
+ 	width: 100px;
+ 	display: inline-block;
+ 	position: relative;
+ 	top: 10px;
+	left: 50px;
+ } 
+ 
+ .conterhide a{
+ 	background:url(../img/02.png) no-repeat 0 0;
+ }
+.conterin  .conterhide{
+	/*background-color: bisque;*/
+	width: 203px;
+	height: 458px;
+	float: left;
+	display: none;
+	border: 1px solid black;
+}
+
