@@ -1,0 +1,24 @@
+.mask_bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+width: 100% ;
+height: 100% ;
+z-index: -2;
+background:url(../img/index.png) no-repeat 0 0;
+background-size: cover;
+filter: blur(100px);
+}
+  
+
+
+.mask{
+		position: absolute;
+	left: 0px;
+	top: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+
+background: rgba(0,0,0,0.35);
+}
